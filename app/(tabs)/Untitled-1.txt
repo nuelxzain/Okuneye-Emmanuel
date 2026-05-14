@@ -1,12 +1,13 @@
-import React, { useCallback, useState } from 'react';
+import React, { useState, useCallback } from 'react';
 import {
-  Dimensions,
-  SafeAreaView,
-  StatusBar,
   StyleSheet,
   Text,
+  View,
   TouchableOpacity,
-  View
+  StatusBar,
+  Dimensions,
+  Platform,
+  SafeAreaView,
 } from 'react-native';
 
 const { width } = Dimensions.get('window');
